@@ -69,4 +69,4 @@ def is_empty(my_sequence):
 
 TEST = ''
 print len(TEST)
-print is_empty(TEST)
+#print is_empty(TEST)

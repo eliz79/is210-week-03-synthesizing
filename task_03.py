@@ -4,3 +4,7 @@
 
 
 NAPOLEON = "Able was I, ere I saw Elba."
+
+RESERVED = NAPOLEON[::-1].lower()
+
+print RESERVED
