@@ -6,6 +6,6 @@
 import inquisition
 
 
-FISHY = (inquisition.SPANISH)
+FISHY = inquisition.SPANISH
 
 print FISHY.replace("surprise", "haddock")

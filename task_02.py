@@ -5,13 +5,13 @@
 
 import inquisition
 
-FLEMISH = inquisition.SPANISH
+OLD_WORD = 'Spanish' 
+NEW_WORD = 'Flemish'
+LEN_TO_REPLACE = len(OLD_WORD)
+R_START = inquisition.SPANISH.index(OLD_WORD)
+R_END = R_START + LEN_TO_REPLACE 
 
-#print FLEMISH
-
-#len(FLEMISH)
-
-#print FLEMISH.index('Spanish')
+FLEMISH = inquisition.SPANISH[:R_START] + NEW_WORD + inquisition.SPANISH[R_END:]
 
 print FLEMISH.replace("Spanish", "Flemish")[0:71]
 
